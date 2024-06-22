@@ -14,10 +14,16 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '统计',
+        items: [
+          { text: '小程序巡检统计', link: '/miniprogram-inspection' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       }
     ],
