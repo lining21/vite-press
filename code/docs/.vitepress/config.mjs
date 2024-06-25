@@ -17,6 +17,7 @@ export default defineConfig({
         text: '统计',
         items: [
           { text: '小程序巡检统计', link: '/miniprogram-inspection' },
+          { text: '统一登录', link: '/unify_login' },
         ]
       },
       {
